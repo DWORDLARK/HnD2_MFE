@@ -1,10 +1,10 @@
 ----------------------------------------------------------------------------------------
-actors.bin
+actors.bin (scene2.bin)
 ----------------------------------------------------------------------------------------
 List(first from left) definitions
 List(second from left) objects
 
-both lists have options (buttons):
+Both lists have options:
 
 ----------------------
 Import:
@@ -79,22 +79,26 @@ Might be useful to set object height with offset from initial value.
 
 
 
-----------------------
-Name:	object name
-----------------------
+Text fields:
+------------------------------------------------------------------
+Name:	object name 
+(Same text box allows to change object name)
+------------------------------------------------------------------
 Sector:	sector name
-----------------------
+(Same text box allows to change sector name)
+------------------------------------------------------------------
 Model:	model name
-----------------------
+(Same text box allows to change model name)
+------------------------------------------------------------------
 
 
 
---------------------------------------------
-Read Actors.bin:   
+------------------------------------------------------------------
+Button: [Read Actors.bin] 
 
 Load  actors.bin (if file found at application directory)
---------------------------------------------
-Backup:
+------------------------------------------------------------------
+Button: [Backup]
 
 Creates backup copy of actors.bin.
 Copy is saved as actors_#.bin
@@ -102,47 +106,11 @@ Copy is saved as actors_#.bin
 	Second copy name: actors_2.bin
 All backup files are saved: *application directory\Backup_actors\
 
---------------------------------------------
-Save Actors.bin:
+------------------------------------------------------------------
+Button: [Save Actors.bin]
 
-Save loaded file. (Overwrites actors.bin !)
---------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Save loaded file. (Overwrites existing actors.bin !)
+------------------------------------------------------------------
 
 
 
