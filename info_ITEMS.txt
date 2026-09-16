@@ -1,0 +1,123 @@
+----------------------------------------------------------------------------------------
+items.dat
+----------------------------------------------------------------------------------------
+Button: [Read items.dat]  	Load items.dat file (if file found)
+
+Button: [Backup]		Make Backup copy of items.dat file (if file found)
+
+Button: [Save items.dat] 	Save file (overwrites items.dat)
+------------------------------------------------------------------
+
+
+
+
+
+------------------------------------------------------------------
+Objects(entry) list (Top-Left)
+------------------------------------------------------------------
+List of objects 
+
+(Select to delete/add/modify)
+
+User can change Selected entry name in "Name:" text box.
+
+
+------------------------------------------------------------------
+Button: [Delete]
+------------------------------------------------------------------
+Delete selected entry.
+
+
+------------------------------------------------------------------
+Button: [Add entry]
+------------------------------------------------------------------
+Add entry to list (with name set in text box next to [Add entry] button)
+
+
+if checkbox "Duplicate Selected" is checked then new entry has a copy
+of selected entry items.
+
+
+if checkbox "Add name from actors.bin list"  is checked, new entry
+name is a copy of selected Object name in Actors.bin list (actors.bin Tab)
+*if checkbox "Duplicate Selected" is checked then new entry has a copy
+of selected entry items.
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------
+Items list (Top-Middle)
+------------------------------------------------------------------
+List of items of selected object.
+
+To change inventory type, 
+select item from list and edit value in "Inventory type:" text box.
+
+To change item ID, 
+select item from list and edit value in "Item ID:" text box.
+* User can select item from drop-down menu.
+
+
+------------------------------------------------------------------
+Button: [Delete]
+------------------------------------------------------------------
+Delete selected item.
+
+
+------------------------------------------------------------------
+Button: [Add item]
+------------------------------------------------------------------
+
+Add new item (if item is selected, new item is a copy of selected item)
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------
+Placed items list (Bottom-left)
+------------------------------------------------------------------
+List of items placed on surface.
+
+
+User can change selected item ID in [Item ID] text box.
+
+*item names in this list are only used for display purpose
+
+
+------------------------------------------------------------------
+Button: [Delete]
+------------------------------------------------------------------
+Delete selected item.
+
+
+------------------------------------------------------------------
+Button: [Add item]
+------------------------------------------------------------------
+
+Add new item, with selected ID value in [Item ID] text box.
+
+
+------------------------------------------------------------------
+X Y Z / Rotation
+------------------------------------------------------------------
+
+Location and rotation of selected item.
+
+
+
+------------------------------------------------------------------
