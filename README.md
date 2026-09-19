@@ -16,7 +16,9 @@ Settings file:  (MFE_Settings.ini)
 
 
 
+
 [Application]
+
 OnTop=0/1           Set HD2_MFE as top window.
 
 Read_Actors=0/1     Set Automatic Actors.bin read when program starts
